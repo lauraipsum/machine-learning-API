@@ -29,6 +29,6 @@ def predict_species(iris: IrisSpecies):
         data['sepal_length'], data['sepal_width'], data['petal_length'], data['petal_width']
     )
     return {
-        'prediction': prediction,
-        'probability': probability
+        'Predição': prediction, 
+        'Probabilidade': probability
     }
